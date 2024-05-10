@@ -1,0 +1,43 @@
+@import './abstracts/variables';
+@import './mixins/breakpoints';
+@import './abstracts/common';
+@import './includes/header';
+@import './includes/footer';
+@import './includes/button';
+
+// =================== style for section-1 ==============//
+.section-1{
+.border-shadow{
+    border-left: 2px solid rgba($color: #3c3c3c, $alpha: 0.3) !important;
+}
+.border-shadow1{
+    border-right: 1px solid rgba($color: #000000, $alpha: 0.8) !important;
+}
+}
+// =================== style for section-2 ==============//
+.section-2{
+    .icon{
+        color: $clr-pink !important;
+    }
+    @include media-max-sm{
+        p{
+            font-size: 1rem;
+            line-height: 22px;
+            width:100%;
+        }
+     }
+    .image{
+        @include media-min-xl{
+            margin-right: -120px;
+            margin-bottom: -50px;
+        }
+    
+    }
+}
+
+// ====================== style for section-3 ===========//
+    .card{
+        @include media-max-sm{
+            width: 100% !important;
+        }
+    }

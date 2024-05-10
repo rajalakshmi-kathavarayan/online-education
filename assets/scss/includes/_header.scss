@@ -1,0 +1,95 @@
+// ========================= style for header section =========================//
+.banner{
+    background-color: $clr-red !important;
+    .navbar-brand{
+        color: white !important;
+    }
+    .navbar-nav{
+        @include media-min-lg{
+            padding-right: 0rem !important;
+        }
+    }
+    .content{
+        @include media-min-lg{
+           margin-top: 7rem !important;
+        }
+    }
+    .position{
+            left: 110px !important;
+            bottom: 121px;
+            @include media-max-lg{
+              display: none !important;
+            }
+      
+    } 
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .banner{
+//     background: url("/public/images/Section\ 1.png") no-repeat center/cover !important;
+// .navbar-nav{
+//     @include media-min-lg{
+//         padding-left: 8rem !important;
+//     }
+// }
+// .navbar-brand{
+//     color: $clr-pink !important;
+//     font-weight: 600 !important;
+// }
+// .nav-item{
+//     a:hover{
+//         background-color: $clr-pink;
+//         color: white !important;
+//         border-radius: 15px;
+//     }
+// }
+// .content{
+//     margin-top: 5rem;
+//     @include media-min-lg{
+//         margin-top: 8rem;
+//     }
+// }
+// }
+// .section-3{
+//     background: url("/public/images/section\ 2.jpg")no-repeat center/cover !important;
+// }

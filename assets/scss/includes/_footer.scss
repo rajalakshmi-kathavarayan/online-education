@@ -1,0 +1,15 @@
+// ================== style for fooyter ================//
+
+footer{
+.fs-2{
+    font-size: 1.203rem !important;
+
+    }
+    .px-7{
+        padding: 1rem !important;
+        @include media-min-md{
+             padding:1.5rem 4rem 1.5rem 6.3rem !important;
+             }
+     }
+
+}

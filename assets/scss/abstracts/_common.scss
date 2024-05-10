@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.clr-red{
+    color: $clr-pink !important;
+}
+.clr-red2{
+    color:$clr-red !important;
+}
+.clr-red1{
+    background-color: $clr-pink !important;
+}
+.bg-pink{
+    background-color: $clr-pink1 !important;
+}
+.fw{
+    font-weight: 600 !important;
+}
+.fs{
+    font-size: 1.2rem;
+}
+.clr-yellow{
+    color: $clr-yellow !important;
+}
+.para{  
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 38px;
+}
+.text-justify{
+    text-align: justify !important;
+}
+.row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
